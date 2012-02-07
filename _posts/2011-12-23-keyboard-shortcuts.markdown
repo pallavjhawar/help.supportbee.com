@@ -21,6 +21,7 @@ Here’s the list of our [Gmail compatible](http://support.google.com/mail/bin/a
   <tr><td> u </td> <td>	takes you back to the last listing </td></tr>
   <tr><td> e </td> <td>	archives a ticket (in listings or when the ticket is open) </td></tr>
   <tr><td> ! </td> <td>	marks the ticket as spam </td></tr>
+  <tr><td> # </td> <td> moves the ticket to trash </td></tr>
   <tr><td> s	</td> <td> Star/UnStar a ticket </td> </tr>
   <tr><td> esc	</td> <td> Takes you out of the search box </td></tr>
 </table>
