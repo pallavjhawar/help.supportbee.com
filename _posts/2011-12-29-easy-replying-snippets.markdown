@@ -11,7 +11,7 @@ What are snippets?
 When you have a reasonably large ticket volume, you will often be
 repeating your work by answering the same questions. To avoid repetition, you can save your answer as a snippet which can be used in just a single click in your replies. 
 
-Sinppets can also be used to save blocks of text within an answer that gets repeated. For example, if you have a standard intorduction and conclusion for all your replies you can save them as snippets to be used in all your replies.
+Snippets can also be used to save blocks of text that are often present in replies. For example, if you have a standard intorduction and conclusion for all your replies you can save them as snippets and use them in all your replies.
 
 
 Where do I add snippets?
