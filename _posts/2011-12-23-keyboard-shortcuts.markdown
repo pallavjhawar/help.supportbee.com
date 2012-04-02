@@ -11,8 +11,9 @@ What keyboard shortcuts can I use?
 Here’s the list of our [Gmail compatible](http://support.google.com/mail/bin/answer.py?hl=en&answer=6594) keyboard shortcuts. It's growing even as you read it 
 
 <table>
-  <tr><td> j </td>    <td> Move down a listing </td></tr>
-  <tr><td> k	</td>   <td> Move up a listing </td></tr>
+  <tr><td> j </td>    <td> Move down in a listing </td></tr>
+  <tr><td> k	</td>   <td> Move up in a listing </td></tr>
+  <tr><td> x	</td> <td> Selects a ticket in the listing</td></tr>
   <tr><td> enter </td> <td> Open a ticket </td></tr>
   <tr><td> r </td>	<td> Puts you in the reply box </td></tr>
   <tr><td> tab + enter </td> <td> If you are in the reply box, this sends the reply </td></tr>
