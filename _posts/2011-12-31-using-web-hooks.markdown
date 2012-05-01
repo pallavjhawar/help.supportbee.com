@@ -8,11 +8,11 @@ categories: web_hooks
 What are Web Hooks?
 -------------------
 
-[Web Hooks](http://www.webhooks.org/) let us post data directly to your servers whenever something happens that you might want to know about.  
+[Web Hooks](http://www.webhooks.org/) lets us post data directly to your servers whenever something happens that you might want to know about.  
 
 Web Hooks allows you to integrate SuppotBee deeply with your support work flow.  
 
-Whenever an event like 'ticket_created' happens a HTTP POST call is made to an URL provided by you with the data about the event. 
+Whenever an event like 'ticket.created' happens a HTTP POST call is made to an URL provided by you with the data about the event. 
 
 How do I create a Web Hook?
 ----------------------------
