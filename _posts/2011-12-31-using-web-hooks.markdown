@@ -8,13 +8,13 @@ categories: web_hooks
 What are Web Hooks?
 -------------------
 
-Web Hooks let us post data directly to your servers whenever something happens that you might want to know about.  
+[Web Hooks](http://www.webhooks.org/) let us post data directly to your servers whenever something happens that you might want to know about.  
 
 Web Hooks allows you to integrate SuppotBee deeply with your support work flow.  
 
-Whenever an event like 'ticket.created' happens a HTTP POST call is made to an URL provided by you with the data about the event. 
+Whenever an event like 'ticket_created' happens a HTTP POST call is made to an URL provided by you with the data about the event. 
 
-How do I create a Web Hooks?
+How do I create a Web Hook?
 ----------------------------
 
 After you login as an admin,
@@ -27,12 +27,12 @@ After you login as an admin,
 
 Your web hook would be created and triggered every time an event happens on your help desk.
 
-You can also create web hooks using our [API]()
+You can also create web hooks using our [API](http://help.supportbee.com/#/api_docs/2012/01/17/web-hooks-api)
 
 How do I test/develop Web Hooks?
 --------------------------------
 
-You can test/develop your webh ook using the Web hook Console.
+You can test/develop your web hook using the Web hook Console.
 
 After you login as an admin,
 
@@ -45,15 +45,17 @@ After you login as an admin,
 
 A HTTP POST request will be made to the URL you have specified with the data corresponding to the event you selected.
 
+The response for the POST call should be a success (HTTP Status Code 200). If the response is a failure the call is retried for 3 times with an interval of an hour.
+
 What events are currently supported?
 ------------------------------------
 
 A HTTP POST call will be made to all the web hook URLs registered by you when
 
-1. Ticket is created
-2. Customer Reply is created
-3. Agent Reply is created
-4. Comment is created
+1. New Ticket
+2. New Customer Reply
+3. New Agent Reply
+4. New Comment
 
 How do I delete a Web Hook?
 ---------------------------
