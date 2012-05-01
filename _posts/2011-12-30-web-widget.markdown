@@ -27,3 +27,15 @@ Then, on your webpage, put up a link (with the text that you want)
 _&lt;a data-controls-modal='sb-overlay'&gt;Contact Us&lt;/a&gt;_
 
 The data-controls-modal property binds the form to this link.
+
+How do I prefill the Name/Email/Subject field? 
+----------------------------------------------
+
+If you already know the name or email address of your customer (for example when they are already signed in), you can prefill the contact form with these details. Edit the code to add one or more of these fields when you initialize the form
+
+_name: 'Awesome Customer'_
+ 
+_email: 'awesome@example.com'_
+ 
+_subject: 'Awesome Question'_
+
