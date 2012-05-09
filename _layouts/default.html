@@ -37,7 +37,13 @@ sidebar_cats:
               <img src="http://supportbee.com/images/logo.jpg">
             </a>
           </div>
-          <div id="nav" class="columns eight">
+          <div id="search" class="columns two">
+            <form>
+              <input type="text" id="st-search-input" class="st-search-input" />
+            </form>
+            <div id="st-results-container"></div>
+          </div>
+          <div id="nav" class="columns six">
             <ul class="nav right">
               <li><a data-controls-modal="sb-overlay">Contact Support</a></li>
               <li><a href="http://supportbee.com/">Back to SupportBee</a></li>
@@ -176,6 +182,23 @@ sidebar_cats:
   </script>
   <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+  <script type="text/javascript">
+    var Swiftype = window.Swiftype || {};
+    (function() {
+      Swiftype.key = 'jyb7kkFy3ZCxPCAeq3BC';
+      Swiftype.inputElement = '#st-search-input';
+      Swiftype.resultContainingElement = '#st-results-container';
+      Swiftype.attachElement = '#st-search-input';
+      Swiftype.renderStyle = "overlay";
+
+      var script = document.createElement('script');
+      script.type = 'text/javascript';
+      script.async = true;
+      script.src = "//swiftype.com/embed.js";
+      var entry = document.getElementsByTagName('script')[0];
+      entry.parentNode.insertBefore(script, entry);
+    }());
+  </script>
 
   </body>
 </html>

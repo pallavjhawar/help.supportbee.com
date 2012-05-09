@@ -36,3 +36,7 @@ iframe {
   margin-bottom: 25px;
 }
 
+#search form{
+  padding-top: 10px;
+  margin-bottom: 0px;
+}
