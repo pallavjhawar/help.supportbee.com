@@ -18,6 +18,7 @@ sidebar_cats:
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>SupportBee Help - {{ page.title }}</title>
     <link href="/shared/css/pygments.css" media="screen" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="http://supportbee.com/assets/base_v2.css" type="text/css" media="screen">
     <link rel="stylesheet" href="http://supportbee.com/assets/base.css" type="text/css" media="screen">
     <link rel="stylesheet" href="http://supportbee.com/assets/common.css" type="text/css" media="screen">
     <link rel="stylesheet" href="http://supportbee.com/assets/app.css" type="text/css" media="screen">
@@ -29,44 +30,49 @@ sidebar_cats:
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   </head>
 
-  <body class="documentation">
-    <div id="header-wrapper">
-      <div id="header" class="container">
-        <div class="row">
-          <div id="logo" class="columns four">
-            <a href="/">
-              <img src="http://supportbee.com/images/logo.jpg">
+  <body>
+    <div id="header" class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <div class=".row-fluid">
+            <a class="logo span3" href="/">
+              <img src="/images/logo_sub.png"/>
             </a>
-          </div>
-          <div id="search" class="columns two">
-            <form>
-              <input type="text" id="st-search-input" class="st-search-input" />
-            </form>
-            <div id="st-results-container"></div>
-          </div>
-          <div id="nav" class="columns six">
-            <ul class="nav right">
-              <li><a data-controls-modal="sb-overlay">Contact Support</a></li>
-              <li><a href="http://supportbee.com/">Back to SupportBee</a></li>
-            </ul>
+
+            <div class="nav-collapse span8">
+              <ul class="nav">
+                <li>
+                  <a href="https://supportbee.com/features"/> Features </a>
+                </li>
+                <li>
+                  <a href="https://supportbee.com/pricing"/> Pricing </a>
+                </li>
+                <li>
+                  <a href="https://supportbee.com/customers"/> Customers </a>
+                </li>
+                <li>
+                  <a href="https://blog.supportbee.com"/> Blog </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div><!-- #header -->
-    </div><!-- #header-wrapper -->
+      </div>
+    </div>
 
     <div id="wrapper" class="container">
 
-      <div class="row">
-        <div class="content columns eight">
-          <div class="row post_body">
+      <div class="row-fluid">
+        <div class="content span8">
+          <div class="row-fluid post_body">
             <h1>{{ page.title }}</h1>
             {{ content }}
           </div>
           
-          <div id="disqus_thread" class="row"></div>
+          <div id="disqus_thread" class="row-fluid"></div>
         </div>
 
-        <div id="js-sidebar" class="sidebar-shell columns four">
+        <div id="js-sidebar" class="sidebar-shell span4">
           <div class="js-accordion-list sidebar-module">
             <ul>
               {% for cat in (page.sidebar_cats) %}
@@ -94,7 +100,7 @@ sidebar_cats:
 
 
      <div id="footer" class="container">
-      <div class="row">
+      <div class="row-fluid">
         <ul class="block-grid four-up">
 
         <li>
