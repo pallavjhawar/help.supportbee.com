@@ -8,7 +8,7 @@ categories: using.webhooks
 What are Web Hooks?
 -------------------
 
-[Web Hooks](http://www.webhooks.org/) lets you develop push notifications for certain events ( like a new ticket creation ) that happen at your helpdesk’s end. This push notification is simply an HTTP POST triggered by that event. This call contains data about the event and is made to the URL provided by you.
+[Web Hooks](http://www.webhooks.org/) lets you develop push notifications for certain events ( like a new ticket creation ) that happen at your helpdesk's end. This push notification is simply an HTTP POST triggered by that event. This call contains data about the event and is made to the URL provided by you.
 
 This feature is intended for businesses that want to integrate SupportBee deeply with their support work-flow.
  
@@ -16,7 +16,7 @@ This feature is intended for businesses that want to integrate SupportBee deeply
 How do I create a Web Hook?
 ----------------------------
 
-The permission to create and manage webhooks is restricted to the admins in the system. If you are an admin, here’s how you can do it:
+The permission to create and manage webhooks is restricted to the admins in the system. If you are an admin, here's how you can do it:
 
 1.Click on the Admin link in the top right corner of the main page after logging in
 2.Choose the 'Web Hooks' tab
@@ -32,7 +32,7 @@ How do I test/develop Web Hooks?
 The permission to test or develop webhooks is restricted to the admins in the system. If you are an admin, you can use our webhook console by following the steps below: 
 
 1.Click on the Admin link in the top right corner of the main page after logging in
-2.Choose the ‘Web Hooks’ tab
+2.Choose the 'Web Hooks' tab
 3.Click on 'Test Web Hook'
 4.Specify the URL to which the HTTP POST call has to be made.
 5.Specify the event for which the call has to be triggered
@@ -55,7 +55,7 @@ An HTTP POST call will be made to all the web hook URLs registered by you for th
 How do I delete a Web Hook?
 ---------------------------
 
-The permission to delete webhooks is restricted to the admins in the system. If you are an admin, here’s how you can do it:
+The permission to delete webhooks is restricted to the admins in the system. If you are an admin, here's how you can do it:
 
 1.Click on the Admin link in the top right corner of the screen after logging in
 2.Choose the Web Hooks tab

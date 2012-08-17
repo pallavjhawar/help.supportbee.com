@@ -8,7 +8,7 @@ categories: email.setup
 How do I automatically send an acknowledgement for new tickets?
 ---------------------------------------------------------------
 
-You can send an acknowledgement to your customers everytime they create a new ticket (via email or web). Here’s how you can do it:
+You can send an acknowledgement to your customers everytime they create a new ticket (via email or web). Here's how you can do it:
 
 1. Click on Admin link in the top right corner of the screen
 2. Select the Email Setup tab

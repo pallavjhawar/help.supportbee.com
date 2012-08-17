@@ -24,6 +24,6 @@ An email notification is sent to a user when a ticket is assigned to him/her
 Where can I access the tickets assigned to me?
 ----------------------------------------------
 
-You can access all the tickets that are assigned to you in the ‘My Tickets’ section in the left navigation bar.
+You can access all the tickets that are assigned to you in the 'My Tickets' section in the left navigation bar.
 
 

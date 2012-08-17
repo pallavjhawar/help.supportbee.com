@@ -24,6 +24,6 @@ An email notification is sent to all members of the group when a ticket is to th
 Where can I access the tickets assigned to my Groups?
 -----------------------------------------------------
 
-You can access all the tickets that are assigned to you in the ‘My Group Tickets’ section in the left navigation bar.
+You can access all the tickets that are assigned to you in the 'My Group Tickets' section in the left navigation bar.
 
 

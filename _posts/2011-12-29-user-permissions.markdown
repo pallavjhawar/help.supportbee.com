@@ -23,7 +23,7 @@ How do I change the role of a user?
 The permission to change the role of a user is restricted to the admins. If you are an admin, you can change the role of a user by following the steps below.
 
 1. Click on the Admin link in the top right corner of the main page after logging in.
-2. Choose the ‘Users’ tab
-3. Click on ‘Edit’ for the user whose role you want to change
+2. Choose the 'Users' tab
+3. Click on 'Edit' for the user whose role you want to change
 4. Choose the appropriate role
-5. Click on ‘Update User’
+5. Click on 'Update User'

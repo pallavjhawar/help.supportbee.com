@@ -8,7 +8,7 @@ categories: handling.tickets
 What keyboard shortcuts can I use?
 ----------------------------------------
 
-Here’s the list of our [Gmail compatible](http://support.google.com/mail/bin/answer.py?hl=en&answer=6594) keyboard shortcuts. It's growing even as you read it 
+Here's the list of our [Gmail compatible](http://support.google.com/mail/bin/answer.py?hl=en&answer=6594) keyboard shortcuts. It's growing even as you read it 
 
 <table>
   <tr><td> ? </td>  <td> Open keyboard shortcut help  </td></tr>

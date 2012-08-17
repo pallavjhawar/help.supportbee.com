@@ -8,7 +8,7 @@ categories: filters
 What are Filters?
 -----------------
 
-Much like [Gmail’s filters](http://support.google.com/mail/bin/answer.py?hl=en&answer=6579), Filters in SupportBee allow you perform certain tasks (like adding a label/assigning to a user etc) on an new ticket if certain pre-defined conditions are met. For example, you may want to assign a ticket coming to support@company.com to ‘Support Group’ or you may want to add the label ‘urgent’ to tickets with ‘downtime’ in the subject.
+Much like [Gmail's filters](http://support.google.com/mail/bin/answer.py?hl=en&answer=6579), Filters in SupportBee allow you perform certain tasks (like adding a label/assigning to a user etc) on an new ticket if certain pre-defined conditions are met. For example, you may want to assign a ticket coming to support@company.com to 'Support Group' or you may want to add the label 'urgent' to tickets with 'downtime' in the subject.
 
 How do I create a filter?
 -------------------------
@@ -19,8 +19,8 @@ After you login as an admin,
 2. Select the Filters tab
 3. Click 'Add New Filter'
 4. You can specify any (or all) four conditions. See the question below for details on different conditions
-5. Click ‘Preview Matches’ to see what tickets match.
-6. Once you are happy with the conditions, click ‘Next’
+5. Click 'Preview Matches' to see what tickets match.
+6. Once you are happy with the conditions, click 'Next'
 7. Check the actions that you want to be performed on matching tickets after they are imported
 8. Click 'Create Filter'
 
