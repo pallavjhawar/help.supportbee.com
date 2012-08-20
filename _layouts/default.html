@@ -12,61 +12,77 @@ sidebar_cats:
 - using.webhooks
 ---
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8">
     <title>SupportBee Help - {{ page.title }}</title>
-    <link href="/shared/css/pygments.css" media="screen" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="http://supportbee.com/assets/base.css" type="text/css" media="screen">
-    <link rel="stylesheet" href="http://supportbee.com/assets/common.css" type="text/css" media="screen">
-    <link rel="stylesheet" href="http://supportbee.com/assets/app.css" type="text/css" media="screen">
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+
+    <link rel="stylesheet" href="https://supportbee.com/assets/base_v2.css">
+    <link rel="stylesheet" type="text/css" href="/shared/css/pygments.css" media="screen">
     <link rel="stylesheet" href="/shared/css/documentation.css" type="text/css" media="screen">
-    <link rel="stylesheet" href="/css/print.css" type="text/css" media="print">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
     <script src="/shared/js/jquery.js" type="text/javascript"></script>
     <script src="/shared/js/documentation.js" type="text/javascript"></script>
-    <script type="text/javascript" src="http://use.typekit.com/qym4cpt.js"></script>
+    <script type="text/javascript" src="//use.typekit.com/gyn4clh.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+    <link rel="shortcut icon" href="https://supportbee.com/favicon.ico">
   </head>
 
-  <body class="documentation">
-    <div id="header-wrapper">
-      <div id="header" class="container">
-        <div class="row">
-          <div id="logo" class="columns four">
-            <a href="/">
-              <img src="http://supportbee.com/images/logo.jpg">
+  <body>
+
+    <div class="navbar navbar-fixed-top" id="header">
+      <div class="navbar-inner">
+        <div class="container">
+          <div class="row-fluid">
+            
+            <a class="logo span4" href="{{ BASE_PATH }}">
+              <img src="https://supportbee.com/images/v3/logo.png">
             </a>
-          </div>
-          <div id="search" class="columns two">
-            <form>
-              <input type="text" id="st-search-input" class="st-search-input" />
-            </form>
-            <div id="st-results-container"></div>
-          </div>
-          <div id="nav" class="columns six">
-            <ul class="nav right">
-              <li><a data-controls-modal="sb-overlay">Contact Support</a></li>
-              <li><a href="http://supportbee.com/">Back to SupportBee</a></li>
-            </ul>
+
+            <div id="search" class="span2">
+              <form>
+                <input type="text" id="st-search-input" class="st-search-input" />
+              </form>
+              <div id="st-results-container"></div>
+            </div>
+
+            <div class="nav-collapse span6">
+              <ul class="nav">
+                <li><a data-controls-modal="sb-overlay">Contact Support</a></li>
+                <li><a href="http://supportbee.com/">Back to SupportBee</a></li>
+              </ul>
+            </div>
+
           </div>
         </div>
-      </div><!-- #header -->
-    </div><!-- #header-wrapper -->
+      </div>
+    </div>
 
     <div id="wrapper" class="container">
-
       <div class="row">
-        <div class="content columns eight">
-          <div class="row post_body">
+
+        <div class="span8">
+          <div class="post_body">
             <h1>{{ page.title }}</h1>
             {{ content }}
           </div>
           
-          <div id="disqus_thread" class="row"></div>
+          <div id="disqus_thread"></div>
+
+          <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
         </div>
 
-        <div id="js-sidebar" class="sidebar-shell columns four">
+        <div id="js-sidebar" class="span4 sidebar-shell">
           <div class="js-accordion-list sidebar-module">
             <ul>
               {% for cat in (page.sidebar_cats) %}
@@ -90,116 +106,133 @@ sidebar_cats:
             </ul>
           </div> <!-- /sidebar-module -->
         </div>
-    </div><!-- #wrapper -->
 
+      </div>
+    </div> <!-- /container -->
 
-     <div id="footer" class="container">
-      <div class="row">
-        <ul class="block-grid four-up">
+    <div id='footer'>
+      <div class='container'>
+        <div class='row-fluid'>
+          
+          <div class='span3 logo'>
+            <img src='https://supportbee.com/images/v3/logo.png'>
+            <p class='tagline handwrite'>
+              <span>Simple</span>
+              <a href='https://supportbee.com/'>Support Software</a>
+              <span>For Small Teams</span>
+            </p>
+          </div>
+          
+          <div class='span3'>
+            <h5>Company</h5>
+            <ul>
+              <li>
+                <a href='https://supportbee.com/about'>About Us</a>
+              </li>
+              <li>
+                <a href='http://status.supportbee.com'>Service Status</a>
+              </li>
+            </ul>
+          </div>
 
-        <li>
-          <h5>SupportBee</h5>
-          <ul class="footer_nav">
-            <li><a href="http://supportbee.com/about">About Us</a></li>
-          </ul>
-        </li>
+          <div class='span3'>
+            <h5>Reach Us</h5>
+            <ul>  
+              <li>
+                <a class='email' data-controls-modal='sb-overlay' href='#'>Contact Us</a>
+              </li>
+              <li>
+                <a class='twitter' href='http://twitter.com/supportbee'>@SupportBee</a>
+              </li> 
+              <li>
+                <a href="https://twitter.com/supportbee" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @supportbee</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+              </li>
+            </ul>
+          </div>
 
-        <li>
-          <h5>Reach Us</h5>
-          <ul class="footer_nav">
-            <li><a data-controls-modal="sb-overlay">Contact Us</a></li>
-            <li><a href="http://twitter.com/supportbee">SupportBee</a></li>
-            <li>
-              <a href="https://twitter.com/supportbee" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @supportbee</a>
-              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <h5>Follow Us</h5>
-          <ul>
-          <li>
-          <a class='blog' href='http://blog.supportbee.com'>Blog</a>
-          </li>
-          <li>
-          <a class='code' href='http://devblog.supportbee.com'>Development Blog</a>
-          </li>
-          <li>
-          <a class='team' href='http://teamblog.supportbee.com'>Team Blog</a>
-          </li>
-          <li>
-          <a class='github' href='https://github.com/supportbee'>Github</a>
-          </li>
-          <li>
-          <a class='angel' href='http://angel.co/supportbee'>Angel List</a>
-          </li>
-          </ul>
-          </li>
-        <li>
-          <h5>What is SupportBee?</h5>
-          <p>SupportBee is a hosted <b><a href="http://supportbee.com">Help Desk Software</a></b>. Wow your customers by setting up our Help Desk Ticketing Software.</p>
-        </li>
-      </ul><!-- /.site -->
-    </div><!-- /.upper_footer -->
+          <div class='span3'>
+            <h5>Follow Us</h5>
+            <ul>
+              <li>
+                <a class='blog' href='{{ BASE_PATH }}'>Blog</a>
+              </li>
+              <li>
+                <a class='code' href='http://devblog.supportbee.com'>Development Blog</a>
+              </li>
+              <li>
+                <a class='github' href='https://github.com/supportbee'>Github</a>
+              </li>
+              <li>
+                <a class='angel' href='http://angel.co/supportbee'>Angel List</a>
+              </li>
+            </ul>
+          </div>
 
-    </div><!-- /#footer -->
+        </div>
+      </div>
+    </div>
 
-    <script src='https://sbassets.s3.amazonaws.com/widget/script.js' type='text/javascript'></script>
     <script>
       //<![CDATA[
-        var sb_form = SupportBee.Form.initialize({
-          company: 'support', 
-          height: '480px', 
-          base_domain: 'supportbee.com', 
-          position: 'none'
-        });
+      var sbhost = (("https:" == document.location.protocol) ? "https://" : "http://");
+      document.write(unescape("%3Cscript src='" + sbhost +"sbassets.s3.amazonaws.com/widget/loader.js' type='text/javascript'%3E%3C/script%3E"));//
+      //]]>
+    </script>
+    <script>
+      //<![CDATA[
+      sb_contact_form('initialize',{
+      company: 'support',
+      height: '500px',
+      position: 'none',
+      locale: 'en'
+      });
       //]]>
     </script>
 
     <script type="text/javascript">
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-495367-26']);
-  _gaq.push(['_trackPageview']);
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-495367-26']);
+      _gaq.push(['_trackPageview']);
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-  </script>
-
-  <script type="text/javascript">
-      /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-      var disqus_shortname = 'supportbeehelp'; // required: replace example with your forum shortname
-
-      /* * * DON'T EDIT BELOW THIS LINE * * */
       (function() {
-          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
-  </script>
-  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-  <script type="text/javascript">
-    var Swiftype = window.Swiftype || {};
-    (function() {
-      Swiftype.key = 'jyb7kkFy3ZCxPCAeq3BC';
-      Swiftype.inputElement = '#st-search-input';
-      Swiftype.resultContainingElement = '#st-results-container';
-      Swiftype.attachElement = '#st-search-input';
-      Swiftype.renderStyle = "overlay";
 
-      var script = document.createElement('script');
-      script.type = 'text/javascript';
-      script.async = true;
-      script.src = "//swiftype.com/embed.js";
-      var entry = document.getElementsByTagName('script')[0];
-      entry.parentNode.insertBefore(script, entry);
-    }());
-  </script>
+    </script>
+
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'supportbeehelp'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    
+    <script type="text/javascript">
+      var Swiftype = window.Swiftype || {};
+      (function() {
+        Swiftype.key = 'jyb7kkFy3ZCxPCAeq3BC';
+        Swiftype.inputElement = '#st-search-input';
+        Swiftype.resultContainingElement = '#st-results-container';
+        Swiftype.attachElement = '#st-search-input';
+        Swiftype.renderStyle = "overlay";
+
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.async = true;
+        script.src = "//swiftype.com/embed.js";
+        var entry = document.getElementsByTagName('script')[0];
+        entry.parentNode.insertBefore(script, entry);
+      }());
+    </script>
 
   </body>
 </html>
