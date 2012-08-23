@@ -24,7 +24,7 @@ The permission to create and manage webhooks is restricted to the admins in the 
 4.Specify the URL to which the HTTP POST call has to be made.
 5.Click on 'Add Web Hook'
 
-Your web hook will be created and triggered every time the event that you created it for happens in your help desk. You can also create web hooks using our [API](http://help.supportbee.com/#/api_docs/2012/01/17/web-hooks-api)
+Your web hook will be created and triggered every time the event that you created it for happens in your help desk. You can also create web hooks using our [API](http://developer.supportbee.com/)
 
 How do I test/develop Web Hooks?
 --------------------------------

@@ -5,10 +5,12 @@ description: How do I archive a ticket
 categories: handling.tickets
 ---
 
+{% include setup %}
+
 How do I archive a ticket?
 --------------------------
 
-You can archive a ticket by selecting it in the list and clicking Archive or by opening it and clicking Archive. You can also use the [keyboard-shortcut](/keyboard-shortcuts/) 'e'
+You can archive a ticket by selecting it in the list and clicking Archive or by opening it and clicking Archive. You can also use the [keyboard-shortcut]({{ BASE_PATH }}/keyboard-shortcuts/) 'e'
 
 How do I access archived tickets?
 ---------------------------------

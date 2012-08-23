@@ -5,6 +5,8 @@ description: How do I add agents and admins to the system
 categories: users
 ---
 
+{% include setup %}
+
 How many users can I add to SupportBee?
 ---------------------------------------
 There's no restriction on the number of users that you can add to your Helpdesk. In-fact, your billing has no bearing on the number of users added. We recommend that you add everyone in your team to SupportBee.
@@ -25,4 +27,4 @@ When you click on 'Add user' we will send an invitation to the email id that you
 
 What is the difference between Agents and Admins?
 -------------------------------------------------
-Checkout the entry on understanding [user permissions](/user-permissions)
+Checkout the entry on understanding [user permissions]({{ BASE_PATH }}/user-permissions)

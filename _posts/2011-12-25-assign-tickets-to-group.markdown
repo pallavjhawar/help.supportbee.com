@@ -5,10 +5,12 @@ description: How do assign tickets to a User
 categories: handling.tickets
 ---
 
+{% include setup %}
+
 How do I assign tickets to a group?
 ----------------------------------
 
-After you have [added groups](/adding-groups/) to your helpdesk and added users to groups,
+After you have [added groups]({{ BASE_PATH }}/adding-groups/) to your helpdesk and added users to groups,
 
 1. Select tickets you want to assign in the listing and click 'Assign to Group'. You can also open a ticket and click 'Assign to Group'. 
 2. From the list of groups, select the group you want to assign the ticket to

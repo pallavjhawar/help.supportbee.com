@@ -5,6 +5,8 @@ description: What are the different ticket states in SupportBee
 categories: handling.tickets
 ---
 
+{% include setup %}
+
 Answered - Unanswered?
 ----------------------
 
@@ -17,5 +19,5 @@ What is the default state of a new ticket?
 
 A new ticket by default is Unassigned and Unanswered. However, there are a few exceptions
 
-1. If you [create a filter](/working-with-filters) that when matched assigns the ticket to a user or agent, the ticket would be assigned and not show up in Unassigned screen
-2. If you [create a filter](/working-with-filters) that when matched archives the ticket, the ticket would be marked as answered and it will not show up in Unanswered section of any screen. You can still find it in All Tickets
+1. If you [create a filter]({{ BASE_PATH }}/working-with-filters) that when matched assigns the ticket to a user or agent, the ticket would be assigned and not show up in Unassigned screen
+2. If you [create a filter]({{ BASE_PATH }}/working-with-filters) that when matched archives the ticket, the ticket would be marked as answered and it will not show up in Unanswered section of any screen. You can still find it in All Tickets

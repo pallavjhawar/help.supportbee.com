@@ -1,0 +1,2 @@
+{% assign BASE_PATH = site.host[site.env] %}
+
