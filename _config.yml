@@ -2,7 +2,7 @@ permalink: /:title
 auto: true
 server: true
 pygments: true
-env: development
+env: production
 
 host:
   development:
