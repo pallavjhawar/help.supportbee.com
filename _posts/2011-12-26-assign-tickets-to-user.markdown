@@ -5,10 +5,12 @@ description: How do assign tickets to a User
 categories: handling.tickets
 ---
 
+{% include setup %}
+
 How do I assign tickets to a user?
 ----------------------------------
 
-After you have [added users](/adding-users/) to your helpdesk, 
+After you have [added users]({{ BASE_PATH }}/adding-users/) to your helpdesk, 
 
 1. Select tickets you want to assign in the listing and click 'Assign'. You can also open a ticket and click Assign. 
 2. From the list of users, select the user you want to assign the ticket to

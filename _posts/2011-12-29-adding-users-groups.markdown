@@ -5,10 +5,12 @@ description: How do I add agents and admins to the system
 categories: groups
 ---
 
+{% include setup %}
+
 How do I add users to groups?
 -----------------------------
 
-Please make sure the group to which you want to add users already exists. If not, [create a group](/adding-groups). The permission to create groups or add users to groups is restricted to admins in the system. If you are an admin, please follow the steps below to add users to groups:
+Please make sure the group to which you want to add users already exists. If not, [create a group]({{ BASE_PATH }}/adding-groups). The permission to create groups or add users to groups is restricted to admins in the system. If you are an admin, please follow the steps below to add users to groups:
 
 1. Click on the Admin link in the top right corner of the main page after logging in
 2. Choose the 'Users' tab

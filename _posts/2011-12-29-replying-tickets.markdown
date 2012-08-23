@@ -5,6 +5,8 @@ description: How do I reply to tickets?
 categories: handling.tickets
 ---
 
+{% include setup %}
+
 How do I reply to a ticket?
 ---------------------------
 
@@ -19,7 +21,7 @@ When you access a ticket which is already opened by another user, you will see a
 A ticket that I replied to disappeared off the listing. Where did it go?
 -----------------------------------------------------------------------
 
-Once you reply to a ticket, it will automatically go off the unanswered section for you to focus your attention on the rest. In SupportBee, there is no need for you to explicitly close a ticket. As you reply, the list shrinks and just burns the inbox. If you need to access a ticket in-spite of having replied to it, you can find it in the 'All Tickets' section (in the left navigation menu). Or you can [star it](/star-a-ticket) before you go back to the list to reply to the other tickets.
+Once you reply to a ticket, it will automatically go off the unanswered section for you to focus your attention on the rest. In SupportBee, there is no need for you to explicitly close a ticket. As you reply, the list shrinks and just burns the inbox. If you need to access a ticket in-spite of having replied to it, you can find it in the 'All Tickets' section (in the left navigation menu). Or you can [star it]({{ BASE_PATH }}/star-a-ticket) before you go back to the list to reply to the other tickets.
 
 Where can I access all the answered tickets?
 --------------------------------------------
@@ -32,4 +34,4 @@ What if a ticket does not need a reply?
 There are two cases when you don't need to reply to a ticket
 
 1. The ticket is spam, in which case you can just mark it as spam.
-2. It is a customer reply or a thank you ticket or a duplicate ticket that you don't want to reply to. In this case, you can [Archive](/archiving-a-ticket) it
+2. It is a customer reply or a thank you ticket or a duplicate ticket that you don't want to reply to. In this case, you can [Archive]({{ BASE_PATH }}/archiving-a-ticket) it

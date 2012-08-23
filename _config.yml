@@ -2,3 +2,8 @@ permalink: /:title
 auto: true
 server: true
 pygments: true
+env: production
+
+host:
+  development:
+  production: https://supportbee.com/help
