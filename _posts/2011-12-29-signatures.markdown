@@ -15,10 +15,10 @@ How do I add my signature?
 
 After you login,
 
-1. Click on the ‘Settings’ link in the top right corner of your Helpdesk page
-2. The ‘General’ option is chosen by default.
-3. Add your signature in the ‘Signature’ text field
-4. Click on ‘Update Settings’
+1. Click on the 'Settings' link in the top right corner of your Helpdesk page
+2. The 'General' option is chosen by default.
+3. Add your signature in the 'Signature' text field
+4. Click on 'Update Settings'
 
 Your signature will be appended to all your replies from SupportBee.
 
@@ -27,10 +27,10 @@ How do I edit my signature?
 
 After you login,
 
-1. Click on the ‘Settings’ link in the top right corner of your Helpdesk page
-2. The ‘General’ option is chosen by default.
-3. Edit  your signature in the ‘Signature’ text field
-4. Click on ‘Update Settings’
+1. Click on the 'Settings' link in the top right corner of your Helpdesk page
+2. The 'General' option is chosen by default.
+3. Edit  your signature in the 'Signature' text field
+4. Click on 'Update Settings'
 
 Your updated signature will be appended to all your replies from SupportBee
 

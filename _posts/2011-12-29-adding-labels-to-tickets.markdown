@@ -26,6 +26,6 @@ How do I remove a label from a ticket?
 To remove a label from a ticket
 
 1. Open the ticket
-2. Click on the ‘X’ on the label to remove it.
+2. Click on the 'X' on the label to remove it.
 
 The ticket will be automatically taken off the label listing too.

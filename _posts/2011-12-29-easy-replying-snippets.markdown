@@ -21,10 +21,10 @@ If you are an admin, you can add a snippet by following the steps below
 
 
 1. Click on the Admin link in the top right corner of the main page after logging in.
-2. Click on the ‘Snippets’ tab
-3. Click on the ‘Add a new snippet’ button
+2. Click on the 'Snippets' tab
+3. Click on the 'Add a new snippet' button
 4. Fill in the Name (used to identify the snippet in your reply), Content and Tag details
-5. Click on ‘Add Snippet’
+5. Click on 'Add Snippet'
 
 
 How do I use snippets in my replies?

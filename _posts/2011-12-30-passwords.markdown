@@ -15,9 +15,9 @@ How do I change my password?
 
 After you login, 
 
-1. Click on the ‘Settings’ link in the top right corner of the page
-2. Choose the ‘Change Password’ option there
+1. Click on the 'Settings' link in the top right corner of the page
+2. Choose the 'Change Password' option there
 3. Change  your password
-4. Click on ‘Update Password’
+4. Click on 'Update Password'
 
 Your password will be updated.

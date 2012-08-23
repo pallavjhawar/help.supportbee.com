@@ -13,7 +13,7 @@ You can archive a ticket by selecting it in the list and clicking Archive or by 
 How do I access archived tickets?
 ---------------------------------
 
-You can click on the ‘All Tickets’ section in the left navigation menu to access all the tickets that have ever come into your helpdesk. Archived tickets also show up in search listings. Archived tickets have a blue background in these listings.
+You can click on the 'All Tickets' section in the left navigation menu to access all the tickets that have ever come into your helpdesk. Archived tickets also show up in search listings. Archived tickets have a blue background in these listings.
 
 What happens if a customer replies to an Archived ticket?
 ---------------------------------------------------------

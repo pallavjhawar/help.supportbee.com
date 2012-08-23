@@ -25,4 +25,4 @@ There are few situations where you may want to star a ticket
 If I star a ticket, is it starred for everybody else too?
 ---------------------------------------------------------
 
-No, starring is a personal option. A ticket starred by you remains starred only for you  and shows up in your ‘My Tickets’ section. 
+No, starring is a personal option. A ticket starred by you remains starred only for you  and shows up in your 'My Tickets' section. 
