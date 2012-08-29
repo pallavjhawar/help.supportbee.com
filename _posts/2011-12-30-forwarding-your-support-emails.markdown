@@ -13,6 +13,7 @@ If you are using Google Apps for support,  you can automatically forward all you
 Here's how you can do it:
 
 1. Find your forwarding address in Admin > Email Setup and copy it.
+2. A default forwarding address is generated for primary support address.
 2. Follow the instructions at [http://support.google.com/mail/bin/answer.py?hl=en&answer=10957](http://support.google.com/mail/bin/answer.py?hl=en&answer=10957) and use the forwarding address that you copied above.
 3. Open your SupportBee account and find the forwarding confirmation message from Gmail in the tickets page.
 4. Click the verification link in that message.
@@ -22,5 +23,11 @@ Here's how you can do it:
 Can I forward emails from more than one email inbox?
 ----------------------------------------------------
 
-Yes, you can.  You can follow the same procedure described in the previous answer.
+You can generate a new forwarding address for each email you want to forward from. 
+
+1. Go to Admin > Email Setup > Generate a New Forwarding address.
+2. Fill in the Email Address you want to forward from.
+3. Fill in the Name associated with the Email. For example, If you are forwarding from billing@example.com then you can set the name as "Billing Support"
+4. Click "Generate Forwarding Address"
+5. Forward the emails to the generated Forwarding Address. 
 
