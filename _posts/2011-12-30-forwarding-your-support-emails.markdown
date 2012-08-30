@@ -23,11 +23,11 @@ Here's how you can do it:
 Can I forward emails from more than one email inbox?
 ----------------------------------------------------
 
-You can generate a new forwarding address for each email you want to forward from. 
+You can generate a new forwarding address for each email address that you want to forward to SupportBee. 
 
 1. Go to Admin > Email Setup > Generate a New Forwarding address.
 2. Fill in the Email Address you want to forward from.
-3. Fill in the Name associated with the Email. For example, If you are forwarding from billing@example.com then you can set the name as "Billing Support"
+3. Fill in the Name that you want your customers to see when you reply. For example, if you want to forwarding billing@example.com, you can set the name as "Billing Support"
 4. Click "Generate Forwarding Address"
-5. Forward the emails to the generated Forwarding Address. 
+5. Forward the emails to the generated Forwarding Address as detailed in the last section.
 
