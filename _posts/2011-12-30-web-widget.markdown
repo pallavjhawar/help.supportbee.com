@@ -12,7 +12,7 @@ After logging in as an Admin,
 
 1. Click on 'Admin' link in the top right of the scren
 2. Select the 'Widget' tab
-3. Select the position and language and copy the code 
+3. Select the email address, position and language and copy the code 
 4. Put it in your webpage below the </body> tag
 
 How do I hide the 'Contact Support' tab and load the widget on clicking a link?
