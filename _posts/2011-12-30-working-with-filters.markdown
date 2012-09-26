@@ -37,6 +37,10 @@ What are the different conditions that I can match?
 
 If you fill in more than one condition, all of the conditions will have to match for the filter to be applied.
 
+Can I use wildcards?
+------------------------------
+
+Yes, you can use wildcards when matching From and Delivered-To. For example \*@importantclient.com will match any importantclient.com email address.
 
 How many filters can I create?
 ------------------------------
