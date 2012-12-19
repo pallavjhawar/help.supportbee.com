@@ -19,3 +19,4 @@ You can send an acknowledgement to your customers everytime they create a new ti
     * \{\{LAST_NAME\}\}
     * \{\{SUBJECT\}\}
     * \{\{EMAIL\}\}
+    * \{\{CONTENT\}\}
