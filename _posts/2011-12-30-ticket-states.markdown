@@ -10,7 +10,7 @@ categories: handling.tickets
 Answered - Unanswered?
 ----------------------
 
-Unlike traditional ticekting systems, tickets in SupportBee have only two states - Answered & Unanswered. Also, they can be Unassigned or Assigned to a user or a group.
+Unlike traditional [email ticketing systems](/features/email), tickets in SupportBee have only two states - Answered & Unanswered. Also, they can be Unassigned or Assigned to a user or a group.
 
 When you reply to a ticket or archive it, it is marked Answered and it goes off all Unanswered sections. If the customer replies back, it is marked as Unanswered again.
 

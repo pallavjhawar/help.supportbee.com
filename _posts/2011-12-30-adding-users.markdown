@@ -7,6 +7,8 @@ categories: users
 
 {% include setup %}
 
+At SupportBee, we believe that collaboration is the key to [good customer service](/resources/good-customer-service). We encourage you to involve everyone in your company in customer support.
+
 How many users can I add to SupportBee?
 ---------------------------------------
 There's no restriction on the number of users that you can add to your Helpdesk. In-fact, your billing has no bearing on the number of users added. We recommend that you add everyone in your team to SupportBee.
