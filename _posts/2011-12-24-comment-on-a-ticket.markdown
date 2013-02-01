@@ -5,6 +5,8 @@ description: How do comment on a ticket
 categories: handling.tickets
 ---
 
+Sometimes you need to involve other team members in customer service without assigning the ticket to them. Comments are a good way to do that.
+
 How do I comment on a Ticket?
 -----------------------------
 

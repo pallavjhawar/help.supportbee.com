@@ -7,6 +7,8 @@ categories: handling.tickets
 
 {% include setup %}
 
+One of the most common help desk software functions is to assign tickets to other team members. In SupportBee, you can assign tickets to users or [groups]({{ BASE_PATH }}/assign-tickets-to-group)
+
 How do I assign tickets to a user?
 ----------------------------------
 

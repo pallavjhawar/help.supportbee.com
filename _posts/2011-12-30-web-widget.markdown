@@ -5,6 +5,8 @@ description: How do setup the contact support widget
 categories: widget
 ---
 
+If you want to collect customer service requests on your website or web product, you should use the contact support widget. It is easy to set it up and it works on desktop, tablets and mobile.
+
 How do I put up the 'Contact Support' Widget on my website?
 -----------------------------------------------------------
 
