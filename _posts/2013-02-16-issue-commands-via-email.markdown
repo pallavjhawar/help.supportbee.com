@@ -13,7 +13,7 @@ You can star, assign, archive and do anything else you are used to doing via our
 List of commands
 ----------------
 
-Issuing a command is super easy. While replying to your ticket email just cc the right @supbee.com email. You can cc
+Issuing a command is super easy. While replying to your ticket email just cc the right @supbee.com email.
 
 * Star a ticket: CC star@supbee.com
 * Unstar a ticket: CC unstar@supbee.com
