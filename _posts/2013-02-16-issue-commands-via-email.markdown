@@ -29,7 +29,7 @@ What about comments?
 
 You can comment on your ticket as well. Doing so is very simple, just add your comment inside the square brackets (these: []) in the ### area of your reply. The ### area is in the quoted part of your reply.
 
-Will my ?client? see any of these?
+Will my customer see any of these?
 ----------------------------------
 
 Of course not, both comments and commands will *never* and in no way be included in your ticket response. The user will only receive your reply to his ticket. If there is no reply in your message but only commands and/or a comment a response will not be sent.
