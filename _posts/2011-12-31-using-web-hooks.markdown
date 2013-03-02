@@ -8,7 +8,7 @@ categories: using.webhooks
 What are Web Hooks?
 -------------------
 
-[Web Hooks](http://www.webhooks.org/) let you push notifications for certain events ( like a new ticket creation ) that happen in your SupportBee to other programs. Couple with our [API](https://developers.supportbee.com/api), webhooks can help you [automate certain tasks](/features/automation) that involve talking to other services. This push notification is simply an HTTP POST triggered by that event. This call contains data about the event and is made to the URL provided by you.
+[Web Hooks](http://www.webhooks.org/) let you push notifications for certain events ( like a new ticket creation ) that happen in your SupportBee to other programs. Coupled with our [API](https://developers.supportbee.com/api), webhooks can help you [automate certain tasks](/features/automation) that involve talking to other services. This push notification is simply an HTTP POST triggered by that event. This call contains data about the event and is made to the URL provided by you.
 
 This feature is intended for businesses that want to integrate SupportBee deeply with their support work-flow.
  
