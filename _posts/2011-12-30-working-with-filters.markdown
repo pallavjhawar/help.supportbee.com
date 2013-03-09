@@ -2,7 +2,7 @@
 layout: default
 title: Working with Filters
 description: How do work with filters
-categories: filters
+categories: automation
 ---
 
 What are Filters?

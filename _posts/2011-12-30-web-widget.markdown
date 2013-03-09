@@ -22,11 +22,11 @@ How do I hide the 'Contact Support' tab and load the widget on clicking a link?
 
 If you don't want to use our 'Contact Support' tab, you have to edit the code and change position to none,
 
-_position: none_
+`position: none`
 
 Then, on your webpage, put up a link (with the text that you want)
 
-_&lt;a data-controls-modal='sb-overlay'&gt;Contact Us&lt;/a&gt;_
+`<a data-controls-modal="sb-overlay">Contact Us</a>`
 
 The data-controls-modal property binds the form to this link.
 
@@ -35,9 +35,16 @@ How do I prefill the Name/Email/Subject field?
 
 If you already know the name or email address of your customer (for example when they are already signed in), you can prefill the contact form with these details. Edit the code to add one or more of these fields when you initialize the form
 
-_name: 'Awesome Customer'_
+`name: "Awesome Customer"`
  
-_email: 'awesome@example.com'_
- 
-_subject: 'Awesome Question'_
+`email: "awesome@example.com"`
+
+`subject: "Awesome Question"`
+
+Can I embed the form on my page without using the overlay?
+----------------------------------------------------------
+
+Absolutely! You can use the iframe version. Please use the code below and replace _your-subdomain_ with your company's SupportBee subdomain. You can also replace the _locale_ with another supported locale
+
+`<iframe src="https://your-subdomain.supportbee.com/web_tickets/new?embed=true&locale=en" style="width:500px; height: 500px; border:none"></iframe>`
 

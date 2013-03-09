@@ -11,11 +11,11 @@ What are snippets?
 When you have a reasonably large ticket volume, you will often be
 repeating your work by answering the same questions. To avoid repetition, you can save your answer as a snippet which can be used in just a single click in your replies. 
 
-Snippets can also be used to save blocks of text that are often present in replies. For example, if you have a standard intorduction and conclusion for all your replies you can save them as snippets and use them in all your replies.
+Snippets can also be used to save blocks of text that are often present in replies. For example, if you have a standard introduction and conclusion for all your replies you can save them as snippets and use them in all your replies.
 
 
 Where do I add snippets?
--------------------------------
+------------------------
 
 If you are an admin, you can add a snippet by following the steps below
 
@@ -23,8 +23,13 @@ If you are an admin, you can add a snippet by following the steps below
 1. Click on the Admin link in the top right corner of the main page after logging in.
 2. Click on the 'Snippets' tab
 3. Click on the 'Add a new snippet' button
-4. Fill in the Name (used to identify the snippet in your reply), Content and Tag details
+4. Fill in the Name (used to identify the snippet in your reply), Content and Tag details. When using snippets, you can search them based on the name, body and tags (tags are just for searching)
 5. Click on 'Add Snippet'
+
+Can My Agents Add Snippets When Replying to Tickets?
+----------------------------------------------------
+
+You can use the [Create Snippet App](https://supportbee.com/apps/workflow/create_snippet) to let your agents create snippets from the ticket screen.
 
 
 How do I use snippets in my replies?
