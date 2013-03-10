@@ -6,4 +6,4 @@ env: production
 
 host:
   development:
-  production: https://supportbee.com/help
+  production: https://supportbee.com/docs
