@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Reply and Issue Commands Via Email
+title: Reply and Issue Commands via Email
 description: How to act on your tickets without leaving your email client
 categories: handling.tickets
 ---
@@ -24,7 +24,7 @@ Yes. Tickets are moved to the answered section once you reply to them whether fr
 How do I issue commands via the email
 -------------------------------------
 
-You can star, assign, archive and do anything else you are used to doing via our web interface (a complete list of commands follows). You can do all of them simply by cc'ing to the right email address when replying to the ticket email you have received. For example if you want to star a ticket just cc star@supbee.com in your reply email and it will be starred. As an added bonus, the next time you want to copy a command, your email client should auto-complete them for you.
+You can star, assign, archive and do anything else you are used to doing via our web interface (a complete list of commands follows). You can do all of them simply by cc'ing to the right email address when replying to the ticket email you have received. For example if you want to star a ticket just cc ``star@supbee.com`` in your reply email and it will be starred. As an added bonus, the next time you want to copy a command, your email client should auto-complete it for you.
 
 List of commands
 ----------------
@@ -43,17 +43,17 @@ Issuing a command is super easy. While replying to your ticket email just cc the
 What about comments?
 --------------------
 
-You can comment on your ticket as well. Doing so is very simple, just add your comment inside the square brackets (these: []) in the ### area of your reply. The ### area is in the quoted part (original message area) of your reply.
+You can comment on your ticket as well. Doing so is very simple, just add your comment inside the square brackets (these: ``[]``) in the ### area of your reply. The ### area is in the quoted part (original message area) of your reply.
 
-Will my customers see any of these?
------------------------------------
+Will my customers see any of this?
+----------------------------------
 
 Of course not, both comments and commands will *never* and in no way be included in your ticket response. The user will only receive your reply to his ticket. If there is no reply in your message but only commands and/or a comment a response will not be sent. We also handle the case where the only new thing in your reply is your signature (in a standard signature format).
 
 What if I only want to issue a command and not reply to the ticket?
 -------------------------------------------------------------------
 
-Again, if your email does not have a response, your user will not receive an empty email. You can just assign the ticket with a cc'ed command to someone else and go on with your work.
-Notice: In case your email client includes a signature to your email, and your email only has a signature, we will still treat your reply as if it was empty.
+Again, if your email does not have a response, your user will not receive an empty email. You can just assign the ticket with a cc'd command to someone else and go on with your work.
+Notice: In case your email client includes a signature to your email, and your email only has an extra signature, we will still treat your reply as if it was empty. Once again, this might not work for some email clients like Outlook so you can always copy `noreply@supbee.com`.
 
 
